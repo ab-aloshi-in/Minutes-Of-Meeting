@@ -1,1 +1,23 @@
 // app global css in SCSS form
+
+.bg-header{
+    background-color: #a366ff;
+}
+
+.hover-card {
+    transition: box-shadow 0.2s, transform 0.2s;
+    cursor: pointer;
+    border-radius: 8px;
+  }
+  
+  .hover-card:hover,
+  .hover-card:focus {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    transform: scale(1.01);
+    background-color: #f5f5f5;
+  }
+
+#warning-text{
+    text-align: center;
+    border: round($number: 5);
+}
